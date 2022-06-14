@@ -1,7 +1,7 @@
 %bcond_with perl_B_Keywords_enables_extra_test
 Name:                perl-B-Keywords
-Version:             1.20
-Release:             2
+Version:             1.24
+Release:             1
 Summary:             Lists of reserved barewords and symbol names
 License:             GPL+ or Artistic
 URL:                 https://metacpan.org/release/B-Keywords
@@ -47,6 +47,9 @@ echo make test
 %{_mandir}/man3/B::Keywords.3*
 
 %changelog
+* Tue Jun 14 2022 SimpleUpdate Robot <tc@openeuler.org> - 1.24-1
+- Upgrade to version 1.24
+
 * Fri Jun 25 2021 Wenlong Ding <wenlong.ding@turbolinux.com.cn> 1.20-2
 - Reformat spec file, replace '\r\n' to '\n'.
 
